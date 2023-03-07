@@ -16,8 +16,12 @@ body {
 
 body {
     font-family: sans-serif;
-    background-color: black;
-    color: white;
+    
+    color: #0000ff;
+    
+    background-image: url('../img/supermario_art.png');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /* main header rules */
@@ -36,12 +40,7 @@ header {
 /* main rules here*/
 #character_nav {
     text-align: center;
-    background-color: #675050;
-
-    background-image: url('../img/characters_art_mas_mob_01.jpeg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-blend-mode: multiply;
+  
 }
 
 .characters {
@@ -53,9 +52,13 @@ header {
     display: inline-block;
     height: 220px;
     margin: 10px 8px;
-    background-color: black;
-    text-align: left;
+    background-color: #4db000;
+    text-align: center;
     cursor: pointer;
+}
+
+.characters li a {
+    text-decoration: none;
 }
 
 .characters li h5 {
