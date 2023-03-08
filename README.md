@@ -12,7 +12,7 @@
 <p align ="center">
 <img src = "./img/characters.png" width ="750px" height="350px">
 
-</br></br>
+</br>
 <p align ="center">
 Once you choose it,  you can learn more about the character!
 </br></br>
