@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 * {
     border: none;
     padding: 0;
@@ -15,10 +18,9 @@ body {
 }
 
 body {
-    font-family: sans-serif;
-    
-    color: #0000ff;
-    
+    font-family: 'Press Start 2P', cursive;
+    color: black;
+    background-color: white;
     background-image: url('../img/supermario_art.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -26,7 +28,7 @@ body {
 
 /* main header rules */
 header {
-    background-color: #0000ff;
+    background-color: #009CDA;
     text-align: center;
     position: sticky;
     top: 0;
@@ -52,7 +54,7 @@ header {
     display: inline-block;
     height: 220px;
     margin: 10px 8px;
-    background-color: #4db000;
+    background-color: #FCD000;
     text-align: center;
     cursor: pointer;
 }
@@ -63,8 +65,9 @@ header {
 
 .characters li h5 {
     position: relative;
-    color: white;
+    color: black;
     padding: 12px 8px;
+    font-size: 12px;
 }
 
 .red_bumper {
@@ -111,6 +114,7 @@ header {
 
 article {
     padding: 20px;
+    margin-top: 50px;
 }
 
 article h3 {
@@ -121,7 +125,7 @@ article h3 {
 
 article p {
     width: 80%;
-    font-size: 18px;
+    font-size: 12px;
     line-height: 1.2;
     text-align: center;
     margin: 0 auto;
@@ -136,7 +140,7 @@ footer {
 }
 
 .stick_footer {
-    background-color: #ff0000;
+    background-color: #4db000;
     height: 80px;
     width: 100%;
     position: absolute;
@@ -145,25 +149,41 @@ footer {
 }
 
 .lightbox {
-    background-color: rgba(0, 0, 0, 0.85);
+    background-color: rgba(255, 255, 255, 0.85);
     position: absolute;
     top: 0;
     left: 0;
     width: 100vw;
     height: 100vh;
-
     z-index: 2;
-
-    background-image: url(../img/Cap_LB_Bg.png);
     background-repeat: no-repeat;
     background-color: 55vh;
-    background-position: 40px bottom;
-
+    background-position: 40px;
     display: none;
 }
 
+#lightbox1 {
+    background-image: url(../img/mario-pole.png);
+}
+
 #lightbox2 {
-    background-image: url(../img/Thor_LB_Bg.png);
+    background-image: url(../img/peach.png);
+}
+
+#lightbox3 {
+    background-image: url(../img/toad.png);
+}
+
+#lightbox4 {
+    background-image: url(../img/luigi.png);
+}
+
+#lightbox5 {
+    background-image: url(../img/bowser.png);
+}
+
+#lightbox6 {
+    background-image: url(../img/yoshi.png);
 }
 
 .lightbox_close {
@@ -179,7 +199,12 @@ footer {
 .lightbox article {
     width: 55%;
     margin-left: 40%;
-    padding-top: 50px;
+    padding-top: 100px;
+}
+
+.lightbox article p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
 }
 
 .lb_text .lb_heading {
@@ -188,7 +213,7 @@ footer {
 
 .lb_text {
     line-height: 1.6 !important;
-    margin-left: 0;
+   
     padding-top: 2em;
 }
 
